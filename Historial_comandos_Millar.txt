@@ -1,0 +1,95 @@
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+cd repogit
+git clone
+git clone git@github.com:Fideitos2/TP_AySO_M-ximo_Millar.git
+ls -l
+pwd
+cd TP_AySO_M-ximo_Millar/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release 
+grep -i HOME_URL /etc/os-release > datos_url.txt
+grep HOME_URL /etc/os-release
+grep <parámetro> Home_url /etc/os-release >
+grep HOME_URL Home_url /etc/os-release > datos_url.txt
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release 
+grep -i Home_url /etc/os-release
+grep <parámetro> Home_url /etc/os-release >
+grep -i HOME_URL /etc/os-release > datos_url.txt
+grep -i Home_url /etc/os-release > datos-url.txt
+git status
+ls -l
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git add .
+git status
+git push
+git config --global user.email millarmaximo2005@gmail.com
+git config --global user.name Fideitos2
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep
+tail -n1
+grep "model name" /proc/cpuinfo | head -n1 >>
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+git status
+git add .
+git status
+git push
+git status
+git push
+cat <<EOF >> README.md
+Alumno <Maximo Uriel Millar>
+Division: <115>
+Turno: <Mañana>
+EOF
+
+git add README.md datos_usuarios.txt
+git status
+git add .
+git status
+git add README.md datos_usuarios.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git status
+git push
+git status
+mkdir materia1
+mkdir materia1/uni1
+mkdir materia1/uni2
+mkdir materia1/uni3
+mkdir materia2
+mkdir materia2/uni1
+mkdir materia2/uni2
+mkdir materia2/uni3
+git status
+git add.
+git add .
+git status
+ls -l
+git commit
+git status
+mkdir script_dir.sh
+ls -l
+chmod
+chmod --help
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+git status
+ls -l
+git add materia1
+git add materia2
+git status
+ls -l
+git add script_dir.sh/
+git status
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
